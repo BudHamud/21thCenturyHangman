@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: wheat;
+}
+
+header img {
+    width: 80px;
+    background-color: wheat;
+}
+
+header p {
+    margin-left: 20px;
+}
+
+main {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.8;
+}
+
+#hangman {
+    margin-bottom: 10px;
+}
